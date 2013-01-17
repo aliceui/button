@@ -4,6 +4,8 @@
 
 全站通用按钮组件，无图片纯 css 实现，IE8 以下无圆角。
 
+可以很方便的和 alice.iconfont 配合使用。
+
 ![](https://i.alipayobjects.com/e/201301/22x3TSS5pM.png)
 
 ---
