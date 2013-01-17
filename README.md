@@ -24,7 +24,9 @@
 
 小型按钮。
 
-### 现有四种颜色 `orange` `white` `disable` `blue`
+### 现有四种颜色，用 ui-button-[l|m|s]{{color}} 的方式进行调用
+
+`orange` `white` `disable` `blue`
 
 ```html
 <a href="#" class="ui-button ui-button-morange">按钮</a>
