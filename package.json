@@ -2,7 +2,7 @@
     "name": "button",
     "version": "1.0.0",
     "root": "alice",
-    "description": "",
+    "description": "全站通用按钮组件。",
     "homepage": "",
     "author": "",
     "repository": {
@@ -17,6 +17,6 @@
     },
     "tests": ["button"],
     "output": {
-        "button.css": "."
+        "button.css": ["ui-button.css", "ui-button-orange.css", "ui-button-white.css", "ui-button-disable.css", "ui-button-blue.css"]
     }
 }
