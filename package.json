@@ -1,0 +1,22 @@
+{
+    "name": "button",
+    "version": "1.0.0",
+    "root": "alice",
+    "description": "全站通用按钮组件。",
+    "homepage": "",
+    "author": "",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "bugs": {
+        "url": ""
+    },
+    "license": "MIT",
+    "dependencies": {
+    },
+    "tests": ["button"],
+    "output": {
+        "button.css": ["ui-button.css", "ui-button-orange.css", "ui-button-white.css", "ui-button-disable.css", "ui-button-blue.css"]
+    }
+}

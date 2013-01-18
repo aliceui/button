@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8">
+    <title>Button - 演示文档</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="nico 0.2.0" />
+    <link type="image/x-icon" href="../static/css/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="../static/css/normalize.css" />
+    <link rel="stylesheet" href="../static/css/site.css" />
+    <link rel="stylesheet" href="../static/css/solarized.css" />
+    <script src="http://static.alipayobjects.com/seajs/1.2.1/sea.js"></script>
+    <script src="../static/js/arale-helper.js"></script>
+    <script src="../static/js/site.js"></script><script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36247332-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = 'https://ssl.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script>
+  (function() {
+    var data;
+    seajs._package = data = {"name":"button","version":"1.0.0","root":"alice","description":"全站通用按钮组件。","homepage":"","author":"","repository":{"type":"git","url":""},"bugs":{"url":""},"license":"MIT","dependencies":{},"tests":["button"],"output":{"button.css":["ui-button.css","ui-button-orange.css","ui-button-white.css","ui-button-disable.css","ui-button-blue.css"]}}
+    data.dependencies && (delete data.dependencies['$'])
+    data.devDependencies && (delete data.devDependencies['$'])
+
+    seajs.config({ alias: data.dependencies })
+    seajs.config({ alias: data.devDependencies })
+    seajs.config({ alias: {} })
+  })();
+</script>
+    <!--[if lt IE 9]>
+    <script src="../static/js/html5shiv.js"></script>
+    <![endif]-->
+    
+  </head>
+  <body>
+    <div id="body-wrapper">
+      <aside id="sidebar-wrapper">
+        <h1><a href="../">Button</a><sup class="package-root"><a href="/">alice</a></sup></h1>
+        <p class="version">当前版本：<a href="http://aralejs.org/docs/online-status.html#alice-button" title="点击查看此组件发布情况">1.0.0</a></p>
+        <p class="description">全站通用按钮组件。</p>
+        <a class="source" href="" target="_blank">View the Project</a>
+        <ul id="navigation" role="navigation">
+          <li><a href="../">文档</a></li>
+          <li><a href="../examples/">演示</a></li>
+          <li><a class="issue-link" href="" target="_blank">讨论</a></li>
+        </ul>
+        
+<ol id="sidenav">
+  <li><a href="../examples/">演示文档</a></li>
+  <li><a href="../examples/old.html">兼容原来的 ui-button</a></li>
+</ol>
+
+<ul id="module-output"> 
+</ul>
+<div id="output-card">
+    <h3>alice/button/1.0.0/<a target="_blank" id="output-file"></a></h3>
+    <p>这是模块的输出文件，请 require 或 seajs.use 以上 ID 来使用本文件，具体 API 请阅读文档。</p>
+</div>
+
+      </aside>
+      <div id="content-wrapper">
+        <div id="content">
+<article class="hentry">
+  <h1 class="entry-title">演示文档</h1>
+  <div class="entry-content">
+    <p><link type="text/css" rel="stylesheet" media="screen" href="../src/ui-button.css">
+<link type="text/css" rel="stylesheet" media="screen" href="../src/ui-button-orange.css">
+<link type="text/css" rel="stylesheet" media="screen" href="../src/ui-button-white.css">
+<link type="text/css" rel="stylesheet" media="screen" href="../src/ui-button-disable.css">
+<link type="text/css" rel="stylesheet" media="screen" href="../src/ui-button-blue.css"></p>
+<h2 id="%E6%A9%99%E8%89%B2%E6%8C%89%E9%92%AE">橙色按钮</h2><h3 id="a">a</h3>
+<div class="nico-insert-code"><a href="#" class="ui-button ui-button-lorange">橙色大按钮</a>
+<a href="#" class="ui-button ui-button-morange">橙色中按钮</a>
+<a href="#" class="ui-button ui-button-sorange">橙色小按钮</a>
+</div>
+<div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-lorange"</span>&gt;</span>橙色大按钮<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+<span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-morange"</span>&gt;</span>橙色中按钮<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+<span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-sorange"</span>&gt;</span>橙色小按钮<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+</code></pre></div><h3 id="input">input</h3>
+<div class="nico-insert-code"><input type="button" class="ui-button ui-button-lorange" value="橙色大按钮">
+<input type="button" class="ui-button ui-button-morange" value="橙色中按钮">
+<input type="button" class="ui-button ui-button-sorange" value="橙色小按钮">
+</div>
+<div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">input</span> <span class="attribute">type</span>=<span class="value">"button"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-lorange"</span> <span class="attribute">value</span>=<span class="value">"橙色大按钮"</span>&gt;</span>
+<span class="tag">&lt;<span class="title">input</span> <span class="attribute">type</span>=<span class="value">"button"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-morange"</span> <span class="attribute">value</span>=<span class="value">"橙色中按钮"</span>&gt;</span>
+<span class="tag">&lt;<span class="title">input</span> <span class="attribute">type</span>=<span class="value">"button"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-sorange"</span> <span class="attribute">value</span>=<span class="value">"橙色小按钮"</span>&gt;</span>
+</code></pre></div><h3 id="button">button</h3>
+<div class="nico-insert-code"><button class="ui-button ui-button-lorange">橙色大按钮</button>
+<button class="ui-button ui-button-morange">橙色中按钮</button>
+<button class="ui-button ui-button-sorange">橙色小按钮</button>
+</div>
+<div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">button</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-lorange"</span>&gt;</span>橙色大按钮<span class="tag">&lt;/<span class="title">button</span>&gt;</span>
+<span class="tag">&lt;<span class="title">button</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-morange"</span>&gt;</span>橙色中按钮<span class="tag">&lt;/<span class="title">button</span>&gt;</span>
+<span class="tag">&lt;<span class="title">button</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-sorange"</span>&gt;</span>橙色小按钮<span class="tag">&lt;/<span class="title">button</span>&gt;</span>
+</code></pre></div><h2 id="%E7%99%BD%E8%89%B2%E6%8C%89%E9%92%AE">白色按钮</h2><h3 id="a">a</h3>
+<div class="nico-insert-code"><a href="#" class="ui-button ui-button-lwhite">白色大按钮</a>
+<a href="#" class="ui-button ui-button-mwhite">白色中按钮</a>
+<a href="#" class="ui-button ui-button-swhite">白色小按钮</a>
+</div>
+<div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-lwhite"</span>&gt;</span>白色大按钮<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+<span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-mwhite"</span>&gt;</span>白色中按钮<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+<span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-swhite"</span>&gt;</span>白色小按钮<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+</code></pre></div><h3 id="input">input</h3>
+<div class="nico-insert-code"><input type="button" class="ui-button ui-button-lwhite" value="白色大按钮">
+<input type="button" class="ui-button ui-button-mwhite" value="白色中按钮">
+<input type="button" class="ui-button ui-button-swhite" value="白色小按钮">
+</div>
+<div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">input</span> <span class="attribute">type</span>=<span class="value">"button"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-lwhite"</span> <span class="attribute">value</span>=<span class="value">"白色大按钮"</span>&gt;</span>
+<span class="tag">&lt;<span class="title">input</span> <span class="attribute">type</span>=<span class="value">"button"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-mwhite"</span> <span class="attribute">value</span>=<span class="value">"白色中按钮"</span>&gt;</span>
+<span class="tag">&lt;<span class="title">input</span> <span class="attribute">type</span>=<span class="value">"button"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-swhite"</span> <span class="attribute">value</span>=<span class="value">"白色小按钮"</span>&gt;</span>
+</code></pre></div><h3 id="button">button</h3>
+<div class="nico-insert-code"><button class="ui-button ui-button-lwhite">白色大按钮</button>
+<button class="ui-button ui-button-mwhite">白色中按钮</button>
+<button class="ui-button ui-button-swhite">白色小按钮</button>
+</div>
+<div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">button</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-lwhite"</span>&gt;</span>白色大按钮<span class="tag">&lt;/<span class="title">button</span>&gt;</span>
+<span class="tag">&lt;<span class="title">button</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-mwhite"</span>&gt;</span>白色中按钮<span class="tag">&lt;/<span class="title">button</span>&gt;</span>
+<span class="tag">&lt;<span class="title">button</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-swhite"</span>&gt;</span>白色小按钮<span class="tag">&lt;/<span class="title">button</span>&gt;</span>
+</code></pre></div><h2 id="%E7%81%B0%E8%89%B2%E6%8C%89%E9%92%AE">灰色按钮</h2>
+<div class="nico-insert-code"><a href="#" class="ui-button ui-button-ldisable">灰色大按钮</a>
+<a href="#" class="ui-button ui-button-mdisable">灰色中按钮</a>
+<a href="#" class="ui-button ui-button-sdisable">灰色小按钮</a>
+</div>
+<div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-ldisable"</span>&gt;</span>灰色大按钮<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+<span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-mdisable"</span>&gt;</span>灰色中按钮<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+<span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-sdisable"</span>&gt;</span>灰色小按钮<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+</code></pre></div><h3 id="button">button</h3>
+<div class="nico-insert-code"><input type="button" class="ui-button ui-button-ldisable" value="灰色大按钮">
+<input type="button" class="ui-button ui-button-mdisable" value="灰色中按钮">
+<input type="button" class="ui-button ui-button-sdisable" value="灰色小按钮">
+</div>
+<div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">input</span> <span class="attribute">type</span>=<span class="value">"button"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-ldisable"</span> <span class="attribute">value</span>=<span class="value">"灰色大按钮"</span>&gt;</span>
+<span class="tag">&lt;<span class="title">input</span> <span class="attribute">type</span>=<span class="value">"button"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-mdisable"</span> <span class="attribute">value</span>=<span class="value">"灰色中按钮"</span>&gt;</span>
+<span class="tag">&lt;<span class="title">input</span> <span class="attribute">type</span>=<span class="value">"button"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-sdisable"</span> <span class="attribute">value</span>=<span class="value">"灰色小按钮"</span>&gt;</span>
+</code></pre></div><h3 id="button">button</h3>
+<div class="nico-insert-code"><button class="ui-button ui-button-ldisable">灰色大按钮</button>
+<button class="ui-button ui-button-mdisable">灰色中按钮</button>
+<button class="ui-button ui-button-sdisable">灰色小按钮</button>
+</div>
+<div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">button</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-ldisable"</span>&gt;</span>灰色大按钮<span class="tag">&lt;/<span class="title">button</span>&gt;</span>
+<span class="tag">&lt;<span class="title">button</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-mdisable"</span>&gt;</span>灰色中按钮<span class="tag">&lt;/<span class="title">button</span>&gt;</span>
+<span class="tag">&lt;<span class="title">button</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-sdisable"</span>&gt;</span>灰色小按钮<span class="tag">&lt;/<span class="title">button</span>&gt;</span>
+</code></pre></div><h2 id="%E8%93%9D%E8%89%B2%E6%8C%89%E9%92%AE">蓝色按钮</h2><h3 id="a">a</h3>
+<div class="nico-insert-code"><a href="#" class="ui-button ui-button-lblue">蓝色大按钮</a>
+<a href="#" class="ui-button ui-button-mblue">蓝色中按钮</a>
+<a href="#" class="ui-button ui-button-sblue">蓝色小按钮</a>
+</div>
+<div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-lblue"</span>&gt;</span>蓝色大按钮<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+<span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-mblue"</span>&gt;</span>蓝色中按钮<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+<span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-sblue"</span>&gt;</span>蓝色小按钮<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+</code></pre></div><h3 id="input">input</h3>
+<div class="nico-insert-code"><input type="button" class="ui-button ui-button-lblue" value="蓝色大按钮">
+<input type="button" class="ui-button ui-button-mblue" value="蓝色中按钮">
+<input type="button" class="ui-button ui-button-sblue" value="蓝色小按钮">
+</div>
+<div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">input</span> <span class="attribute">type</span>=<span class="value">"button"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-lblue"</span> <span class="attribute">value</span>=<span class="value">"蓝色大按钮"</span>&gt;</span>
+<span class="tag">&lt;<span class="title">input</span> <span class="attribute">type</span>=<span class="value">"button"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-mblue"</span> <span class="attribute">value</span>=<span class="value">"蓝色中按钮"</span>&gt;</span>
+<span class="tag">&lt;<span class="title">input</span> <span class="attribute">type</span>=<span class="value">"button"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-sblue"</span> <span class="attribute">value</span>=<span class="value">"蓝色小按钮"</span>&gt;</span>
+</code></pre></div><h3 id="button">button</h3>
+<div class="nico-insert-code"><button class="ui-button ui-button-lblue">蓝色大按钮</button>
+<button class="ui-button ui-button-mblue">蓝色中按钮</button>
+<button class="ui-button ui-button-sblue">蓝色小按钮</button>
+</div>
+<div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">button</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-lblue"</span>&gt;</span>蓝色大按钮<span class="tag">&lt;/<span class="title">button</span>&gt;</span>
+<span class="tag">&lt;<span class="title">button</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-mblue"</span>&gt;</span>蓝色中按钮<span class="tag">&lt;/<span class="title">button</span>&gt;</span>
+<span class="tag">&lt;<span class="title">button</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-sblue"</span>&gt;</span>蓝色小按钮<span class="tag">&lt;/<span class="title">button</span>&gt;</span>
+</code></pre></div>
+  </div>
+</article>
+</div>
+      </div>
+      
+    </div>
+    <div id="footer-wrapper">
+      <footer>
+        <p class="powered">
+        <a href="http://aralejs.org">Arale</a> •
+        <a href="http://seajs.org">SeaJS</a> •
+        <a href="https://github.com/spmjs/spm">spm</a> •
+        <a href="http://lab.lepture.com/nico/">nico</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

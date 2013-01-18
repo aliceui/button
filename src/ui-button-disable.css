@@ -1,0 +1,31 @@
+.ui-button-ldisable,
+.ui-button-mdisable,
+.ui-button-sdisable {
+    border: none;
+    background: #D4D4D4;
+    cursor: text;
+    color:#fff;    
+}
+
+a.ui-button-ldisable,
+a.ui-button-mdisable,
+a.ui-button-sdisable {
+    color:#fff;
+}
+.ui-button-ldisable {
+    line-height:35px;
+    height:35px;
+}
+
+.ui-button-mdisable {
+    line-height:31px;
+    height:31px;
+}
+
+.ui-button-sdisable {
+    line-height:25px;
+    height:25px;
+    padding:0 12px;
+    font-size:12px;
+}
+

@@ -1,0 +1,48 @@
+.ui-button-lorange,
+.ui-button-morange,
+.ui-button-sorange {
+    border:1px solid #E5810E;
+    color:#fff;
+
+    background-color: #F5AA2B;    
+    background: -webkit-gradient(linear, left top, left bottom, from(#F5A620), to(#F09611));
+    background: -moz-linear-gradient(top, #F5A620, #F09611);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5A620', endColorstr='#F09611');
+    background:-o-linear-gradient(top, #F5A620, #F09611);
+    background: linear-gradient(top, #F5A620, #F09611);
+    box-shadow: 0 -2px 2px rgba(255, 255, 255, 0.33) inset;
+}
+
+.ui-button-lorange:hover,
+.ui-button-morange:hover,
+.ui-button-sorange:hover {
+    background-color: #F5AA2B;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F7B73B), to(#F4A626));
+    background: -moz-linear-gradient(top, #F7B73B, #F4A626);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F7B73B', endColorstr='#F4A626');
+    background:-o-linear-gradient(top, #F7B73B, #F4A626);
+    background: linear-gradient(top, #F7B73B, #F4A626);
+    box-shadow: 0 -2px 2px rgba(255, 255, 255, 0.4) inset;
+}
+
+a.ui-button-lorange,
+a.ui-button-morange,
+a.ui-button-sorange {
+    color:#fff;    
+}
+.ui-button-lorange {
+    line-height:33px;
+    height:33px;
+}
+
+.ui-button-morange {
+    line-height:29px;
+    height:29px;
+}
+
+.ui-button-sorange {
+    padding: 0 12px;
+    line-height:23px;
+    height:23px;
+    font-size:12px;
+}
