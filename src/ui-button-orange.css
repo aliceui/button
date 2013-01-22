@@ -10,7 +10,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5A620', endColorstr='#F09611');
     background:-o-linear-gradient(top, #F5A620, #F09611);
     background: linear-gradient(top, #F5A620, #F09611);
-    box-shadow: 0 -2px 2px rgba(255, 255, 255, 0.33) inset;
+    box-shadow: 0 -2px 3px rgba(255, 255, 255, 0.3) inset;
 }
 
 .ui-button-lorange:hover,
