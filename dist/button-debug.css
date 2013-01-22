@@ -96,7 +96,7 @@ a.ui-button-sorange {
 .ui-button-swhite {
     border:1px solid #B3B3B3;
     color:#595959;
-    background-color: ##F2F2F2;    
+    background-color: #F2F2F2;    
     background: -webkit-gradient(linear, left top, left bottom, from(#FEFEFE), to(#ECECEC));
     background: -moz-linear-gradient(top, #FEFEFE, #ECECEC);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FEFEFE', endColorstr='#ECECEC');
