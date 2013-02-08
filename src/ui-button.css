@@ -15,6 +15,7 @@
     font-weight: bold;    
     border-radius: 2px;    
     padding: 0 20px;
+    *zoom: 1;
 }
 
 .ui-button .ui-button-text {

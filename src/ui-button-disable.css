@@ -4,7 +4,8 @@
     border: none;
     background: #D4D4D4;
     cursor: text;
-    color:#fff;    
+    color:#fff;
+    text-shadow: 0 -1px 1px #aaa;    
 }
 
 a.ui-button-ldisable,
