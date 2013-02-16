@@ -6,32 +6,114 @@
 
 可以很方便的和 alice.iconfont 配合使用。
 
-![](https://i.alipayobjects.com/e/201301/22x3TSS5pM.png)
-
 ---
 
-## 使用说明
+<link type="text/css" rel="stylesheet" media="screen" href="../src/ui-button.css">
+<link type="text/css" rel="stylesheet" media="screen" href="../src/ui-button-orange.css">
+<link type="text/css" rel="stylesheet" media="screen" href="../src/ui-button-white.css">
+<link type="text/css" rel="stylesheet" media="screen" href="../src/ui-button-disable.css">
+<link type="text/css" rel="stylesheet" media="screen" href="../src/ui-button-blue.css">
 
-### .ui-button-lorange
+## 橙色按钮
 
-大型按钮。
+### a
 
-### .ui-button-morange
+````html
+<a href="#" class="ui-button ui-button-lorange">橙色大按钮</a>
+<a href="#" class="ui-button ui-button-morange">橙色中按钮</a>
+<a href="#" class="ui-button ui-button-sorange">橙色小按钮</a>
+````
 
-中型按钮
+### input
 
-### .ui-button-sorange
+````html
+<input type="button" class="ui-button ui-button-lorange" value="橙色大按钮">
+<input type="button" class="ui-button ui-button-morange" value="橙色中按钮">
+<input type="button" class="ui-button ui-button-sorange" value="橙色小按钮">
+````
 
-小型按钮。
+### button
 
-### 现有四种颜色，用 ui-button-[l|m|s]{{color}} 的方式进行调用
+````html
+<button class="ui-button ui-button-lorange">橙色大按钮</button>
+<button class="ui-button ui-button-morange">橙色中按钮</button>
+<button class="ui-button ui-button-sorange">橙色小按钮</button>
+````
 
-`orange` `white` `disable` `blue`
+## 白色按钮
 
-```html
-<a href="#" class="ui-button ui-button-morange">按钮</a>
-```
+### a
 
-```html
-<input type="button" class="ui-button ui-button-morange" value="按钮">
-```
+````html
+<a href="#" class="ui-button ui-button-lwhite">白色大按钮</a>
+<a href="#" class="ui-button ui-button-mwhite">白色中按钮</a>
+<a href="#" class="ui-button ui-button-swhite">白色小按钮</a>
+````
+
+### input
+
+````html
+<input type="button" class="ui-button ui-button-lwhite" value="白色大按钮">
+<input type="button" class="ui-button ui-button-mwhite" value="白色中按钮">
+<input type="button" class="ui-button ui-button-swhite" value="白色小按钮">
+````
+
+### button
+
+````html
+<button class="ui-button ui-button-lwhite">白色大按钮</button>
+<button class="ui-button ui-button-mwhite">白色中按钮</button>
+<button class="ui-button ui-button-swhite">白色小按钮</button>
+````
+
+## 灰色按钮
+
+````html
+<a href="#" class="ui-button ui-button-ldisable">灰色大按钮</a>
+<a href="#" class="ui-button ui-button-mdisable">灰色中按钮</a>
+<a href="#" class="ui-button ui-button-sdisable">灰色小按钮</a>
+````
+
+### button
+
+````html
+<input type="button" class="ui-button ui-button-ldisable" value="灰色大按钮">
+<input type="button" class="ui-button ui-button-mdisable" value="灰色中按钮">
+<input type="button" class="ui-button ui-button-sdisable" value="灰色小按钮">
+````
+
+### button
+
+````html
+<button class="ui-button ui-button-ldisable">灰色大按钮</button>
+<button class="ui-button ui-button-mdisable">灰色中按钮</button>
+<button class="ui-button ui-button-sdisable">灰色小按钮</button>
+````
+
+## 蓝色按钮
+
+### a
+
+````html
+<a href="#" class="ui-button ui-button-lblue">蓝色大按钮</a>
+<a href="#" class="ui-button ui-button-mblue">蓝色中按钮</a>
+<a href="#" class="ui-button ui-button-sblue">蓝色小按钮</a>
+````
+
+### input
+
+````html
+<input type="button" class="ui-button ui-button-lblue" value="蓝色大按钮">
+<input type="button" class="ui-button ui-button-mblue" value="蓝色中按钮">
+<input type="button" class="ui-button ui-button-sblue" value="蓝色小按钮">
+````
+
+### button
+
+````html
+<button class="ui-button ui-button-lblue">蓝色大按钮</button>
+<button class="ui-button ui-button-mblue">蓝色中按钮</button>
+<button class="ui-button ui-button-sblue">蓝色小按钮</button>
+````
+
+
