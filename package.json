@@ -7,10 +7,10 @@
     "author": "",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/aliceui/button"
     },
     "bugs": {
-        "url": ""
+        "url": "https://github.com/aliceui/button/issues"
     },
     "license": "MIT",
     "dependencies": {
