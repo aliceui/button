@@ -8,11 +8,11 @@
 
 ---
 
-<link type="text/css" rel="stylesheet" media="screen" href="../src/ui-button.css">
-<link type="text/css" rel="stylesheet" media="screen" href="../src/ui-button-orange.css">
-<link type="text/css" rel="stylesheet" media="screen" href="../src/ui-button-white.css">
-<link type="text/css" rel="stylesheet" media="screen" href="../src/ui-button-disable.css">
-<link type="text/css" rel="stylesheet" media="screen" href="../src/ui-button-blue.css">
+<link type="text/css" rel="stylesheet" media="screen" href="src/ui-button.css">
+<link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-orange.css">
+<link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-white.css">
+<link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-disable.css">
+<link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-blue.css">
 
 ## 橙色按钮
 
