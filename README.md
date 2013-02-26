@@ -14,9 +14,9 @@
 <link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-disable.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-blue.css">
 
-## 橙色按钮
+## 演示
 
-### a
+### 橙色按钮 a
 
 ````html
 <a href="#" class="ui-button ui-button-lorange">橙色大按钮</a>
@@ -24,7 +24,7 @@
 <a href="#" class="ui-button ui-button-sorange">橙色小按钮</a>
 ````
 
-### input
+### 橙色按钮 input
 
 ````html
 <input type="button" class="ui-button ui-button-lorange" value="橙色大按钮">
@@ -32,7 +32,7 @@
 <input type="button" class="ui-button ui-button-sorange" value="橙色小按钮">
 ````
 
-### button
+### 橙色按钮 button
 
 ````html
 <button class="ui-button ui-button-lorange">橙色大按钮</button>
@@ -40,9 +40,7 @@
 <button class="ui-button ui-button-sorange">橙色小按钮</button>
 ````
 
-## 白色按钮
-
-### a
+### 白色按钮 a
 
 ````html
 <a href="#" class="ui-button ui-button-lwhite">白色大按钮</a>
@@ -50,7 +48,7 @@
 <a href="#" class="ui-button ui-button-swhite">白色小按钮</a>
 ````
 
-### input
+### 白色按钮 input
 
 ````html
 <input type="button" class="ui-button ui-button-lwhite" value="白色大按钮">
@@ -58,7 +56,7 @@
 <input type="button" class="ui-button ui-button-swhite" value="白色小按钮">
 ````
 
-### button
+### 白色按钮 button
 
 ````html
 <button class="ui-button ui-button-lwhite">白色大按钮</button>
@@ -66,7 +64,7 @@
 <button class="ui-button ui-button-swhite">白色小按钮</button>
 ````
 
-## 灰色按钮
+### 灰色按钮 a
 
 ````html
 <a href="#" class="ui-button ui-button-ldisable">灰色大按钮</a>
@@ -74,7 +72,7 @@
 <a href="#" class="ui-button ui-button-sdisable">灰色小按钮</a>
 ````
 
-### button
+### 灰色按钮 input
 
 ````html
 <input type="button" class="ui-button ui-button-ldisable" value="灰色大按钮">
@@ -82,7 +80,7 @@
 <input type="button" class="ui-button ui-button-sdisable" value="灰色小按钮">
 ````
 
-### button
+### 灰色按钮 button
 
 ````html
 <button class="ui-button ui-button-ldisable">灰色大按钮</button>
@@ -90,9 +88,7 @@
 <button class="ui-button ui-button-sdisable">灰色小按钮</button>
 ````
 
-## 蓝色按钮
-
-### a
+### 蓝色按钮 a
 
 ````html
 <a href="#" class="ui-button ui-button-lblue">蓝色大按钮</a>
@@ -100,7 +96,7 @@
 <a href="#" class="ui-button ui-button-sblue">蓝色小按钮</a>
 ````
 
-### input
+### 蓝色按钮 input
 
 ````html
 <input type="button" class="ui-button ui-button-lblue" value="蓝色大按钮">
@@ -108,7 +104,7 @@
 <input type="button" class="ui-button ui-button-sblue" value="蓝色小按钮">
 ````
 
-### button
+### 蓝色按钮 button
 
 ````html
 <button class="ui-button ui-button-lblue">蓝色大按钮</button>
