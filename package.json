@@ -4,6 +4,9 @@
     "root": "alice",
     "description": "全站通用按钮组件。",
     "homepage": "",
+    "keywords": [
+        "按钮"
+    ],
     "author": "",
     "repository": {
         "type": "git",
