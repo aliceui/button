@@ -18,6 +18,7 @@
     border-radius: 2px;    
     padding: 0 20px;
     *zoom: 1;
+    *overflow: visible; /* for a ie6/7 bug http://blog.csdn.net/jyy_12/article/details/6636099 */    
 }
 
 .ui-button .ui-button-text {
@@ -34,7 +35,6 @@
 input.ui-button-text, button.ui-button-text {
     *vertical-align: top; /* for a ie7 bug */
     font-family: Hiragino Sans GB;
-    *overflow: visible; /* for a ie6/7 bug http://blog.csdn.net/jyy_12/article/details/6636099 */
 }
 
 .ui-button-lorange,
