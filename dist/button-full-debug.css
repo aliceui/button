@@ -139,7 +139,7 @@ a.ui-button-swhite {
 .ui-button-sdisable {
     border: none;
     background: #D4D4D4;
-    cursor: normal;
+    cursor: not-allowed;
     color:#fff;
     text-shadow: 0 -1px 1px #aaa;    
 }
@@ -169,7 +169,7 @@ a.ui-button-sdisable {
 input.ui-button-ldisable,
 input.ui-button-mdisable,
 input.ui-button-sdisable {
-    cursor: normal;
+    cursor: not-allowed;
 }
 
 .ui-button-lblue,
