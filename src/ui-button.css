@@ -34,3 +34,8 @@ input.ui-button-text, button.ui-button-text {
     *vertical-align: top; /* for a ie7 bug */
     font-family: Hiragino Sans GB;
 }
+
+.ui-button:active {
+    position: relative;
+    top: 1px;
+}
