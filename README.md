@@ -13,15 +13,21 @@
 <link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-white.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-disable.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-blue.css">
+<style>
+a { color: #08c; }
+a:hover { color: #000; }
+a:active { color: #f60; }
+a:visited { color: red; }
+</style>
 
 ## 演示
 
 ### 橙色按钮 a
 
 ````html
-<a href="#" class="ui-button ui-button-lorange">橙色大按钮</a>
-<a href="#" class="ui-button ui-button-morange">橙色中按钮</a>
-<a href="#" class="ui-button ui-button-sorange">橙色小按钮</a>
+<a href="javascript:;" class="ui-button ui-button-lorange">橙色大按钮</a>
+<a href="javascript:;" class="ui-button ui-button-morange">橙色中按钮</a>
+<a href="javascript:;" class="ui-button ui-button-sorange">橙色小按钮</a>
 ````
 
 ### 橙色按钮 input
@@ -43,9 +49,9 @@
 ### 白色按钮 a
 
 ````html
-<a href="#" class="ui-button ui-button-lwhite">白色大按钮</a>
-<a href="#" class="ui-button ui-button-mwhite">白色中按钮</a>
-<a href="#" class="ui-button ui-button-swhite">白色小按钮</a>
+<a href="javascript:;" class="ui-button ui-button-lwhite">白色大按钮</a>
+<a href="javascript:;" class="ui-button ui-button-mwhite">白色中按钮</a>
+<a href="javascript:;" class="ui-button ui-button-swhite">白色小按钮</a>
 ````
 
 ### 白色按钮 input
@@ -67,9 +73,9 @@
 ### 灰色按钮 a
 
 ````html
-<a href="#" class="ui-button ui-button-ldisable">灰色大按钮</a>
-<a href="#" class="ui-button ui-button-mdisable">灰色中按钮</a>
-<a href="#" class="ui-button ui-button-sdisable">灰色小按钮</a>
+<a href="javascript:;" class="ui-button ui-button-ldisable">灰色大按钮</a>
+<a href="javascript:;" class="ui-button ui-button-mdisable">灰色中按钮</a>
+<a href="javascript:;" class="ui-button ui-button-sdisable">灰色小按钮</a>
 ````
 
 ### 灰色按钮 input
@@ -91,9 +97,9 @@
 ### 蓝色按钮 a
 
 ````html
-<a href="#" class="ui-button ui-button-lblue">蓝色大按钮</a>
-<a href="#" class="ui-button ui-button-mblue">蓝色中按钮</a>
-<a href="#" class="ui-button ui-button-sblue">蓝色小按钮</a>
+<a href="javascript:;" class="ui-button ui-button-lblue">蓝色大按钮</a>
+<a href="javascript:;" class="ui-button ui-button-mblue">蓝色中按钮</a>
+<a href="javascript:;" class="ui-button ui-button-sblue">蓝色小按钮</a>
 ````
 
 ### 蓝色按钮 input

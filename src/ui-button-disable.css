@@ -1,18 +1,25 @@
 .ui-button-ldisable,
 .ui-button-mdisable,
 .ui-button-sdisable {
+    color:#fff;    
     border: none;
     background: #D4D4D4;
     cursor: default;
-    color:#fff;
     text-shadow: 0 -1px 1px #aaa;    
 }
 
 a.ui-button-ldisable,
 a.ui-button-mdisable,
-a.ui-button-sdisable {
-    color:#fff;
+a.ui-button-sdisable,
+a.ui-button-ldisable:active,
+a.ui-button-mdisable:active,
+a.ui-button-sdisable:active,
+a.ui-button-ldisable:hover,
+a.ui-button-mdisable:hover,
+a.ui-button-sdisable:hover {
+    color:#fff; 
 }
+
 .ui-button-ldisable {
     line-height:35px;
     height:35px;

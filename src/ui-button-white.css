@@ -26,9 +26,16 @@
 
 a.ui-button-lwhite,
 a.ui-button-mwhite,
-a.ui-button-swhite {
+a.ui-button-swhite,
+a.ui-button-lwhite:active,
+a.ui-button-mwhite:active,
+a.ui-button-swhite:active,
+a.ui-button-lwhite:hover,
+a.ui-button-mwhite:hover,
+a.ui-button-swhite:hover {
     color:#595959;    
 }
+
 .ui-button-lwhite {
     line-height:33px;
     height:33px;

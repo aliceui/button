@@ -1,9 +1,8 @@
 .ui-button-lorange,
 .ui-button-morange,
 .ui-button-sorange {
+    color: #fff;
     border:1px solid #F67600;
-    color:#fff;
-
     background-color: #F5AA2B;    
     background: -webkit-gradient(linear, left top, left bottom, from(#FFA600), to(#FE9200));
     background: -moz-linear-gradient(top, #FFA600, #FE9200);
@@ -28,9 +27,16 @@
 
 a.ui-button-lorange,
 a.ui-button-morange,
-a.ui-button-sorange {
+a.ui-button-sorange,
+a.ui-button-lorange:hover,
+a.ui-button-morange:hover,
+a.ui-button-sorange:hover,
+a.ui-button-lorange:active,
+a.ui-button-morange:active,
+a.ui-button-sorange:active {
     color:#fff;    
 }
+
 .ui-button-lorange {
     line-height:33px;
     height:33px;

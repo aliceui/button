@@ -45,9 +45,8 @@ input.ui-button-text, button.ui-button-text {
 .ui-button-lorange,
 .ui-button-morange,
 .ui-button-sorange {
+    color: #fff;
     border:1px solid #F67600;
-    color:#fff;
-
     background-color: #F5AA2B;    
     background: -webkit-gradient(linear, left top, left bottom, from(#FFA600), to(#FE9200));
     background: -moz-linear-gradient(top, #FFA600, #FE9200);
@@ -72,9 +71,16 @@ input.ui-button-text, button.ui-button-text {
 
 a.ui-button-lorange,
 a.ui-button-morange,
-a.ui-button-sorange {
+a.ui-button-sorange,
+a.ui-button-lorange:hover,
+a.ui-button-morange:hover,
+a.ui-button-sorange:hover,
+a.ui-button-lorange:active,
+a.ui-button-morange:active,
+a.ui-button-sorange:active {
     color:#fff;    
 }
+
 .ui-button-lorange {
     line-height:33px;
     height:33px;
@@ -120,9 +126,16 @@ a.ui-button-sorange {
 
 a.ui-button-lwhite,
 a.ui-button-mwhite,
-a.ui-button-swhite {
+a.ui-button-swhite,
+a.ui-button-lwhite:active,
+a.ui-button-mwhite:active,
+a.ui-button-swhite:active,
+a.ui-button-lwhite:hover,
+a.ui-button-mwhite:hover,
+a.ui-button-swhite:hover {
     color:#595959;    
 }
+
 .ui-button-lwhite {
     line-height:33px;
     height:33px;
@@ -143,18 +156,25 @@ a.ui-button-swhite {
 .ui-button-ldisable,
 .ui-button-mdisable,
 .ui-button-sdisable {
+    color:#fff;    
     border: none;
     background: #D4D4D4;
     cursor: default;
-    color:#fff;
     text-shadow: 0 -1px 1px #aaa;    
 }
 
 a.ui-button-ldisable,
 a.ui-button-mdisable,
-a.ui-button-sdisable {
-    color:#fff;
+a.ui-button-sdisable,
+a.ui-button-ldisable:active,
+a.ui-button-mdisable:active,
+a.ui-button-sdisable:active,
+a.ui-button-ldisable:hover,
+a.ui-button-mdisable:hover,
+a.ui-button-sdisable:hover {
+    color:#fff; 
 }
+
 .ui-button-ldisable {
     line-height:35px;
     height:35px;
@@ -206,9 +226,16 @@ input.ui-button-sdisable {
 
 a.ui-button-lblue,
 a.ui-button-mblue,
-a.ui-button-sblue {
+a.ui-button-sblue,
+a.ui-button-lblue:active,
+a.ui-button-mblue:active,
+a.ui-button-sblue:active,
+a.ui-button-lblue:hover,
+a.ui-button-mblue:hover,
+a.ui-button-sblue:hover {
     color:#fff;    
 }
+
 .ui-button-lblue {
     line-height:33px;
     height:33px;
