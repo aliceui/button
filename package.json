@@ -1,7 +1,7 @@
 {
     "name": "button",
     "version": "1.0.0",
-    "root": "alice",
+    "family": "alice",
     "description": "全站通用按钮组件。",
     "homepage": "",
     "keywords": [
@@ -16,10 +16,8 @@
         "url": "https://github.com/aliceui/button/issues"
     },
     "license": "MIT",
-    "dependencies": {
-    },
-    "tests": ["button"],
-    "output": {
-        "button.css": ["ui-button.css", "ui-button-orange.css", "ui-button-white.css", "ui-button-disable.css", "ui-button-blue.css"]
+    "spm": {
+      "alias": {},
+      "output": ["ui-button.css"]
     }
 }

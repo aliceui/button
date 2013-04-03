@@ -39,3 +39,8 @@ input.ui-button-text, button.ui-button-text {
     position: relative;
     top: 1px;
 }
+
+@import url("./ui-button-orange.css");
+@import url("./ui-button-white.css");
+@import url("./ui-button-disable.css");
+@import url("./ui-button-blue.css");

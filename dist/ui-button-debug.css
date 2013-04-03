@@ -1,5 +1,4 @@
-
-/** alice/button/1.0.0/button.css **/
+/*! define alice/button/1.0.0/ui-button-debug.css */
 .ui-button * {
     margin:0;
     padding:0;
@@ -42,6 +41,7 @@ input.ui-button-text, button.ui-button-text {
     top: 1px;
 }
 
+/*! block alice/button/1.0.0/ui-button-orange-debug.css */
 .ui-button-lorange,
 .ui-button-morange,
 .ui-button-sorange {
@@ -97,7 +97,9 @@ a.ui-button-sorange:active {
     height:23px;
     font-size:12px;
 }
+/*! endblock alice/button/1.0.0/ui-button-orange-debug.css */
 
+/*! block alice/button/1.0.0/ui-button-white-debug.css */
 .ui-button-lwhite,
 .ui-button-mwhite,
 .ui-button-swhite {
@@ -152,7 +154,9 @@ a.ui-button-swhite:hover {
     padding:0 12px;
     font-size:12px;
 }
+/*! endblock alice/button/1.0.0/ui-button-white-debug.css */
 
+/*! block alice/button/1.0.0/ui-button-disable-debug.css */
 .ui-button-ldisable,
 .ui-button-mdisable,
 .ui-button-sdisable {
@@ -197,7 +201,9 @@ input.ui-button-mdisable,
 input.ui-button-sdisable {
     cursor: default;
 }
+/*! endblock alice/button/1.0.0/ui-button-disable-debug.css */
 
+/*! block alice/button/1.0.0/ui-button-blue-debug.css */
 .ui-button-lblue,
 .ui-button-mblue,
 .ui-button-sblue {
@@ -252,3 +258,4 @@ a.ui-button-sblue:hover {
     height:23px;
     font-size:12px;
 }
+/*! endblock alice/button/1.0.0/ui-button-blue-debug.css */
