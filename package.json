@@ -18,6 +18,6 @@
     "license": "MIT",
     "spm": {
       "alias": {},
-      "output": ["ui-button.css"]
+      "output": ["button.css"]
     }
 }
