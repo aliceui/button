@@ -17,7 +17,6 @@
 a { color: #08c; }
 a:hover { color: #000; }
 a:active { color: #f60; }
-a:visited { color: red; }
 </style>
 
 ## 演示
