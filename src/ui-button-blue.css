@@ -3,25 +3,14 @@
 .ui-button-sblue {
     border:none;
     color:#fff;
-
-    background-color: #F5AA2B;    
-    background: -webkit-gradient(linear, left top, left bottom, from(#3283C6), to(#0A6695));
-    background: -moz-linear-gradient(top, #3283C6, #0A6695);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3283C6', endColorstr='#0A6695');
-    background:-o-linear-gradient(top, #3283C6, #0A6695);
-    background: linear-gradient(top, #3283C6, #0A6695);
-    box-shadow: 0 -2px 2px rgba(255, 255, 255, 0.25) inset;
+    border: 1px solid #154c67;
+    background-color: #006ba1;    
 }
 
 .ui-button-lblue:hover,
 .ui-button-mblue:hover,
 .ui-button-sblue:hover {
-    background-color: #F5AA2B;
-    background: -webkit-gradient(linear, left top, left bottom, from(#3295E5), to(#0C689B));
-    background: -moz-linear-gradient(top, #3295E5, #0C689B);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3295E5', endColorstr='#0C689B');
-    background:-o-linear-gradient(top, #3295E5, #0C689B);
-    background: linear-gradient(top, #3295E5, #0C689B);
+    background-color: #007ab8;
 }
 
 a.ui-button-lblue,
@@ -33,22 +22,37 @@ a.ui-button-sblue:active,
 a.ui-button-lblue:hover,
 a.ui-button-mblue:hover,
 a.ui-button-sblue:hover {
-    color:#fff;    
+    color:#fff;
 }
 
 .ui-button-lblue {
-    line-height:33px;
-    height:33px;
+    line-height:32px;
+    height:32px;
 }
 
 .ui-button-mblue {
-    line-height:29px;
-    height:29px;
+    line-height:28px;
+    height:28px;
 }
 
 .ui-button-sblue {
     padding: 0 12px;
-    line-height:23px;
-    height:23px;
+    line-height:24px;
+    height:24px;
     font-size:12px;
+}
+
+a.ui-button-lblue {
+    line-height:30px;
+    height:30px;
+}
+
+a.ui-button-mblue {
+    line-height:26px;
+    height:26px;
+}
+
+a.ui-button-sblue {
+    line-height:22px;
+    height:22px;
 }
