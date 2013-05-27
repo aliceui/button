@@ -1,7 +1,7 @@
 .ui-button-ldisable,
 .ui-button-mdisable,
 .ui-button-sdisable {
-    color:#f8f8f8;    
+    color:#999;    
     border: none;
     background: #cacccd;
     cursor: default;
@@ -16,7 +16,7 @@ a.ui-button-sdisable:active,
 a.ui-button-ldisable:hover,
 a.ui-button-mdisable:hover,
 a.ui-button-sdisable:hover {
-    color:#f8f8f8; 
+    color:#999; 
 }
 
 .ui-button-ldisable {

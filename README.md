@@ -69,7 +69,7 @@ a:active { color: #f60; }
 <button class="ui-button ui-button-swhite">白色小按钮</button>
 ````
 
-### 灰色按钮 a
+### 不可用按钮 a
 
 ````html
 <a href="javascript:;" class="ui-button ui-button-ldisable">灰色大按钮</a>
@@ -77,7 +77,7 @@ a:active { color: #f60; }
 <a href="javascript:;" class="ui-button ui-button-sdisable">灰色小按钮</a>
 ````
 
-### 灰色按钮 input
+### 不可用按钮 input
 
 ````html
 <input type="button" class="ui-button ui-button-ldisable" value="灰色大按钮">
@@ -85,7 +85,7 @@ a:active { color: #f60; }
 <input type="button" class="ui-button ui-button-sdisable" value="灰色小按钮">
 ````
 
-### 灰色按钮 button
+### 不可用按钮 button
 
 ````html
 <button class="ui-button ui-button-ldisable">灰色大按钮</button>
