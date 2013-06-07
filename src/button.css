@@ -17,6 +17,7 @@
     padding: 0 20px;
     *zoom: 1;
     *overflow: visible; /* for a ie6/7 bug http://blog.csdn.net/jyy_12/article/details/6636099 */    
+    background-image: none; /* for old alice button style conflict */
 }
 
 .ui-button .ui-button-text {
@@ -27,7 +28,8 @@
 }
 
 .ui-button:hover {
-    text-decoration: none;    
+    text-decoration: none;
+    background-image: none; /* for old alice button style conflict */    
 }
 
 input.ui-button-text, button.ui-button-text {
