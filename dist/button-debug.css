@@ -11,7 +11,6 @@
     text-decoration: none;
     vertical-align: middle;
     cursor: pointer;
-    font-family: verdana, Hiragino Sans GB;
     font-size: 14px;
     font-weight: bold;    
     border-radius: 2px;    
@@ -35,7 +34,6 @@
 
 input.ui-button-text, button.ui-button-text {
     *vertical-align: top; /* for a ie7 bug */
-    font-family: Hiragino Sans GB;
 }
 
 .ui-button:active {
