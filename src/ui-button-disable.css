@@ -36,8 +36,16 @@ a.ui-button-sdisable:hover {
     font-size:12px;
 }
 
-input.ui-button-ldisable,
-input.ui-button-mdisable,
-input.ui-button-sdisable {
-    cursor: default;
+.ui-button-ldisable,
+.ui-button-mdisable,
+.ui-button-sdisable {
+    cursor: default!important;
+}
+
+.ui-button-ldisable:active,
+.ui-button-mdisable:active,
+.ui-button-sdisable:active {
+    position: static;
+    top: 0;
+    box-shadow: none;
 }

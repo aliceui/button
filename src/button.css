@@ -38,6 +38,7 @@ input.ui-button-text, button.ui-button-text {
 .ui-button:active {
     position: relative;
     top: 1px;
+    box-shadow: 1px 1px 3px #999 inset;
 }
 
 @import url("./ui-button-orange.css");
