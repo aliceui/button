@@ -12,6 +12,7 @@
     vertical-align: middle;
     cursor: pointer;
     font-size: 14px;
+    font-family: inherit; /* Correct font family not being inherited in all browsers for <button> <input> */
     font-weight: bold;
     border-radius: 2px;
     padding: 0 20px;
