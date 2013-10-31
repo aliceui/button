@@ -11,8 +11,8 @@
     vertical-align: middle;
     cursor: pointer;
     font-size: 14px;
-    font-weight: bold;    
-    border-radius: 2px;    
+    font-weight: bold;
+    border-radius: 2px;
     padding: 0 20px;
     *zoom: 1;
     *overflow: visible; /* for a ie6/7 bug http://blog.csdn.net/jyy_12/article/details/6636099 */    

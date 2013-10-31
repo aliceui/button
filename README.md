@@ -14,6 +14,7 @@
 <link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-white.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-disable.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-blue.css">
+<link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-green.css">
 <style>
 a { color: #08c; }
 a:hover { color: #000; }
@@ -118,4 +119,26 @@ a:active { color: #f60; }
 <button class="ui-button ui-button-sblue">蓝色小按钮</button>
 ````
 
+### 绿色按钮 a
 
+````html
+<a href="javascript:;" class="ui-button ui-button-lgreen">绿色大按钮</a>
+<a href="javascript:;" class="ui-button ui-button-mgreen">绿色中按钮</a>
+<a href="javascript:;" class="ui-button ui-button-sgreen">绿色小按钮</a>
+````
+
+### 绿色按钮 input
+
+````html
+<input type="button" class="ui-button ui-button-lgreen" value="绿色大按钮">
+<input type="button" class="ui-button ui-button-mgreen" value="绿色中按钮">
+<input type="button" class="ui-button ui-button-sgreen" value="绿色小按钮">
+````
+
+### 绿色按钮 button
+
+````html
+<button class="ui-button ui-button-lgreen">绿色大按钮</button>
+<button class="ui-button ui-button-mgreen">绿色中按钮</button>
+<button class="ui-button ui-button-sgreen">绿色小按钮</button>
+````
