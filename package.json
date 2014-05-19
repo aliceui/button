@@ -1,23 +1,21 @@
 {
-    "name": "button",
-    "version": "1.2.0",
-    "family": "alice",
-    "description": "全站通用按钮组件。",
-    "homepage": "",
-    "keywords": [
-        "按钮"
-    ],
-    "author": "",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/aliceui/button"
-    },
-    "bugs": {
-        "url": "https://github.com/aliceui/button/issues"
-    },
-    "license": "MIT",
-    "spm": {
-      "alias": {},
-      "output": ["button.css"]
-    }
+  "name": "alice-button",
+  "version": "1.3.0",
+  "description": "全站通用按钮组件。",
+  "homepage": "",
+  "keywords": [
+    "按钮"
+  ],
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliceui/button"
+  },
+  "bugs": {
+    "url": "https://github.com/aliceui/button/issues"
+  },
+  "license": "MIT",
+  "spm": {
+    "main": "src/button.css"
+  }
 }
