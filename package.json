@@ -16,6 +16,6 @@
   },
   "license": "MIT",
   "spm": {
-    "main": "src/button.css"
+    "main": "button.css"
   }
 }
