@@ -10,13 +10,15 @@
 a.ui-button-ldisable,
 a.ui-button-mdisable,
 a.ui-button-sdisable,
-a.ui-button-ldisable:active,
-a.ui-button-mdisable:active,
-a.ui-button-sdisable:active,
-a.ui-button-ldisable:hover,
-a.ui-button-mdisable:hover,
-a.ui-button-sdisable:hover {
+.ui-button-ldisable:active,
+.ui-button-mdisable:active,
+.ui-button-sdisable:active,
+.ui-button-ldisable:hover,
+.ui-button-mdisable:hover,
+.ui-button-sdisable:hover {
     color:#999; 
+    border: none;
+    background: #cacccd;
 }
 
 .ui-button-ldisable {
