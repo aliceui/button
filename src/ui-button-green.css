@@ -25,18 +25,15 @@ a.ui-button-sgreen:active {
 }
 
 .ui-button-lgreen {
-    line-height:32px;
     height:32px;
 }
 
 .ui-button-mgreen {
-    line-height:28px;
     height:28px;
 }
 
 .ui-button-sgreen {
     padding: 0 12px;
-    line-height:24px;
     height:24px;
     font-size:12px;
 }

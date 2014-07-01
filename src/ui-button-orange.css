@@ -25,18 +25,15 @@ a.ui-button-sorange:active {
 }
 
 .ui-button-lorange {
-    line-height:32px;
     height:32px;
 }
 
 .ui-button-morange {
-    line-height:28px;
     height:28px;
 }
 
 .ui-button-sorange {
     padding: 0 12px;
-    line-height:24px;
     height:24px;
     font-size:12px;
 }

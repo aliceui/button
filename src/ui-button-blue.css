@@ -4,7 +4,7 @@
     border:none;
     color:#fff;
     border: 1px solid #154c67;
-    background-color: #006ba1;    
+    background-color: #006ba1;
 }
 
 .ui-button-lblue:hover,
@@ -26,18 +26,15 @@ a.ui-button-sblue:hover {
 }
 
 .ui-button-lblue {
-    line-height:32px;
     height:32px;
 }
 
 .ui-button-mblue {
-    line-height:28px;
     height:28px;
 }
 
 .ui-button-sblue {
     padding: 0 12px;
-    line-height:24px;
     height:24px;
     font-size:12px;
 }

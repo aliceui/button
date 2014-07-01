@@ -21,7 +21,7 @@ a.ui-button-lwhite:active,
 a.ui-button-mwhite:active,
 a.ui-button-swhite:active {
     color: #777;
-}   
+}
 a.ui-button-lwhite:hover,
 a.ui-button-mwhite:hover,
 a.ui-button-swhite:hover {
@@ -29,17 +29,14 @@ a.ui-button-swhite:hover {
 }
 
 .ui-button-lwhite {
-    line-height:32px;
     height:32px;
 }
 
 .ui-button-mwhite {
-    line-height:28px;
     height:28px;
 }
 
 .ui-button-swhite {
-    line-height:24px;
     height:24px;
     padding:0 12px;
     font-size:12px;
