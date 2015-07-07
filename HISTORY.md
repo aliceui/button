@@ -1,6 +1,11 @@
 # History
 
 ---
+
+## 1.4.2
+
+`fixed` a.ui-button-xdisable 不居中的问题
+
 ## 1.4.1
 
 `changed` 调整disable为最高优先级
