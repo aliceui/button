@@ -8,13 +8,12 @@
 
 ---
 
-<link type="text/css" rel="stylesheet" media="screen" href="https://a.alipayobjects.com/al/alice.components.ui-button-orange-1.3-src.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/button.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-orange.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-white.css">
-<link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-disable.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-blue.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-green.css">
+<link type="text/css" rel="stylesheet" media="screen" href="src/ui-button-disable.css">
 <style>
 a { color: #08c; }
 a:hover { color: #000; }
