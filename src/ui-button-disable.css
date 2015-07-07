@@ -2,7 +2,7 @@
 .ui-button-mdisable,
 .ui-button-sdisable {
     color:#999;    
-    border: none;
+    border: 1px solid #cacccd;;
     background: #cacccd;
     cursor: default;
 }
@@ -20,7 +20,6 @@ a.ui-button-sdisable:hover,
 .ui-button-mdisable:hover,
 .ui-button-sdisable:hover {
     color:#999; 
-    border: none;
     background: #cacccd;
 }
 
@@ -38,6 +37,20 @@ a.ui-button-sdisable:hover,
     font-size:12px;
 }
 
+a.ui-button-ldisable {
+    line-height:30px;
+    height:30px;
+}
+
+a.ui-button-mdisable {
+    line-height:26px;
+    height:26px;
+}
+
+a.ui-button-sdisable {
+    line-height:22px;
+    height:22px;
+}
 .ui-button-ldisable,
 .ui-button-mdisable,
 .ui-button-sdisable {
