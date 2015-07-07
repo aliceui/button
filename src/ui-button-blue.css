@@ -1,16 +1,15 @@
 .ui-button-lblue,
 .ui-button-mblue,
 .ui-button-sblue {
-    border:none;
     color:#fff;
-    border: 1px solid #154c67;
-    background-color: #006ba1;
+    border: 1px solid #00aaee;
+    background-color: #00aaee;
 }
 
 .ui-button-lblue:hover,
 .ui-button-mblue:hover,
 .ui-button-sblue:hover {
-    background-color: #007ab8;
+    background-color: #00a3d2;
 }
 
 a.ui-button-lblue,
