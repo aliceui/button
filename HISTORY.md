@@ -1,6 +1,10 @@
 # History
 
 ---
+## 1.4.1
+
+`changed` 调整disable为最高优先级
+
 ## 1.4.0
 
 'changed' 蓝色按钮色值改用蚂蚁蓝
