@@ -15,12 +15,15 @@
 a.ui-button-lblue,
 a.ui-button-mblue,
 a.ui-button-sblue,
-a.ui-button-lblue:active,
-a.ui-button-mblue:active,
-a.ui-button-sblue:active,
+a.ui-button-lblue:visited,
+a.ui-button-mblue:visited,
+a.ui-button-sblue:visited,
 a.ui-button-lblue:hover,
 a.ui-button-mblue:hover,
-a.ui-button-sblue:hover {
+a.ui-button-sblue:hover,
+a.ui-button-lblue:active,
+a.ui-button-mblue:active,
+a.ui-button-sblue:active {
     color:#fff;
 }
 

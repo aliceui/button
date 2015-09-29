@@ -1,6 +1,9 @@
 # History
 
 ---
+## 1.4.4
+
+`fixed` a.ui-button-xblue :visited颜色
 
 ## 1.4.2
 
